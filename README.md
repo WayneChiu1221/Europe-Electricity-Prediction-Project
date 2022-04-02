@@ -29,5 +29,17 @@ After we have selected the model , I determine what is the amount of data by cal
 The periods that have lowest MAPEs will be selected. 
 
 # Results
-Our methods generate about 20% better than the naive methods when comparing forecast of 1 week.
+
+
+![image](https://user-images.githubusercontent.com/99564835/161405326-e63e8d1a-5544-4ef5-ab27-017ad2ab757b.png)
+Above graphs is an example of using our forecast model to forecast the next 7 days. It shows that our model can predict the seasonality and trend more closely than the simple naive method
+
+![image](https://user-images.githubusercontent.com/99564835/161404943-d957dc52-4f0e-43ad-95c0-abcf3fb15cde.png)
+Our model currently beats a naive forecast in all countries in the 2-week forecast (Mar-10 to Mar-24) as it has a lower MAE in all countries
+
+
+![image](https://user-images.githubusercontent.com/99564835/161404861-8fa8786c-d365-457d-bc9c-0bc1be2b1051.png)
+MAPEs of 2-week forecast (Mar-10 to Mar-24)
+
+
 
